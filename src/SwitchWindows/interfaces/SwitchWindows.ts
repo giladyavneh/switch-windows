@@ -1,0 +1,35 @@
+export interface SwitchWindowsInterface {
+    gridTemplate?:gridTemplateInterface
+}
+
+export interface gridTemplateInterface {
+    gap?:string,
+    grid?:string,
+    gridArea?:string,
+    gridAutoColumns?:string,
+    gridAutoFlow?:string,
+    gridAutoRows?:string,
+    gridColumn?:string,
+    gridColumnEnd?:string,
+    gridColumnStart?:string,
+    gridColumnGap?:string,
+    gridGap?:string,
+    gridRow?:string,
+    gridRowEnd?:string,
+    gridRowGap?:string,
+    gridRowStart?:string,
+    gridTemplate?:string,
+    gridTemplateAreas?:string,
+    gridTemplateColumns?:string,
+    gridTemplateRows?:string,
+    columnGap?:string,
+    msGridColumns?:string,
+    msGridRows?:string,
+    rowGap?:string,
+    justifyContent?:string,
+    alignContent?:string,
+    justifyItems?:string,
+    alignItems?:string,
+    justifySelf?:string,
+    alignSelf?:string,
+}

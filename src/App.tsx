@@ -1,25 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SwitchWindows from './SwitchWindows/SwitchWindows';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SwitchWindows gridTemplate={{gap:"10px"}}>
+      <div>
+        <span>
+          <p>
+          <li className="foo drag-handler"></li>
+          <li className="foo"></li>
+          </p>
+          </span>
+      </div>
+      <div className="boo"></div>
+      <div></div>
+    </SwitchWindows>
   );
 }
 
